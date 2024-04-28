@@ -1,0 +1,46 @@
+/* Hide the "Key" and "Value" headers in the table */
+#dataTable th:nth-child(1),
+#dataTable th:nth-child(2) {
+    display: none;
+}
+
+* {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.navbar-custom {
+    background-color: #429B8F;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* เพิ่มเงาด้านล่าง */
+}
+
+.header-custom {
+    background-color: #54bbad;
+    color: #fff;
+}
+
+.card-shadow {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* เพิ่มเงาด้านล่าง */
+}
+
+.logo-container {
+    display: inline-block;
+    border-radius: 50%; /* ใส่วงกลม */
+    overflow: hidden; /* ตัดส่วนที่เกินขอบของวงกลม */
+    margin-right: 5px; /* ปรับระยะห่างของ Logo และข้อความ */
+    padding: 8px;
+    background-color: #fff;
+    vertical-align: middle; /* จัดตำแหน่งตามแนวตั้ง */
+}
+
+.brand-text {
+    display: inline-block;
+    vertical-align: middle; /* จัดตำแหน่งตามแนวตั้ง */
+    margin-left: 10px; /* ปรับระยะห่างระหว่าง Logo และข้อความ */
+    color: #fff;
+    font-size: 20px;
+}

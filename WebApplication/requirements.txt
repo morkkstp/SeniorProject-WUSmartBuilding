@@ -1,0 +1,7 @@
+# Library ต่าง ๆ ในการใช้งาน
+firebase_admin
+pandas
+requests
+torch
+fastapi
+uvicorn
